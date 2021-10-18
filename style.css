@@ -78,10 +78,23 @@ img {
 
 @media screen and (max-width: 420px) {
 
+  /* commons */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0;
+    padding: 20px 5px;
+  }
+
   /* blocco lezioni */
 
-  #lezioni .row {
-    width: 100%;
+  #lezioni {
+    background-color: #F2F2CD;
   }
 
   #lezioni .row>.left,
@@ -89,4 +102,14 @@ img {
     width: 100%;
     float: none;
   }
+
+  /* blocco steps */
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: none;
+  width: 100%;
+  }
+
 }
