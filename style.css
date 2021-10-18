@@ -71,3 +71,22 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+/* ***** smartphones view ***** */
+
+@media screen and (max-width: 420px) {
+
+  /* blocco lezioni */
+
+  #lezioni .row {
+    width: 100%;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+}
